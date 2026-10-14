@@ -77,7 +77,7 @@ Designed, directed and shipped by H-sib, built with an AI coding assistant (Clau
 
 - **Name:** Declared. **Maker:** H-sib (github.com/H-sib). **Licence:** Apache-2.0.
 - **Application ID:** `io.github.h_sib.declared`. **Version:** 0.3.0. **Size:** 8.2 MB bundle, about 23 MB installed apk.
-- **Repository:** https://github.com/H-sib/declared (once published). **Play Store:** link after release.
+- **Repository:** https://github.com/H-sib/declared. **Site:** https://h-sib.github.io/declared/. **Play Store:** link after release.
 - **Screenshots:** `play-store/graphics/phone-1.png` to `phone-8.png`. **Feature graphic:** `play-store/graphics/feature-graphic-1024x500.png`. **Logo:** `brand/`.
 - **Longer write-ups:** `PROJECT_SUMMARY.md` (overview, complexity, future scope), `DESIGN.md`, `THREAT_MODEL.md`, `CHANGELOG.md`.
 

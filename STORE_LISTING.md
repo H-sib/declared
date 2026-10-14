@@ -36,7 +36,7 @@ Prepared 2026-10-12. Nothing has been submitted or published. Everything below i
 
 ## App content forms (answers)
 
-**Privacy policy:** a public web page with the text of `PRIVACY.md`. Simplest: turn on GitHub Pages for the repository and use `https://h-sib.github.io/declared/privacy` (or the repository's `PRIVACY.md` page).
+**Privacy policy:** `https://h-sib.github.io/declared/privacy.html` (live on GitHub Pages, same text as `PRIVACY.md`).
 
 **App access:** all functionality is available without a login or any special access.
 
