@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Benign fixture for the attack-path conformance run: the SHAPE of an app made to watch someone, with none of the behavior.
+         A screen-reading service, a device administrator, no launcher icon, and requests for text messages, location and the
+         microphone. It ignores every event and does nothing when activated. -->
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application>
+        <activity
+            android:name=".FixtureActivity"
+            tools:node="remove" />
+
+        <service
+            android:name=".ShadowA11yService"
+            android:exported="true"
+            android:label="Fixture shadow accessibility"
+            android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService" />
+            </intent-filter>
+            <meta-data
+                android:name="android.accessibilityservice"
+                android:resource="@xml/shadow_a11y_config" />
+        </service>
+
+        <receiver
+            android:name=".ShadowAdminReceiver"
+            android:exported="true"
+            android:label="Fixture shadow device admin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/shadow_device_admin" />
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,6 @@
+# Reference data for the offline key attestation check (DESIGN.md section 5, device integrity).
+# Fetched from Google on the date shown and bundled unchanged. The app checks each file against these checksums on every
+# load; a mismatch makes the hardware key check unavailable instead of changing its answer.
+# name	sha256	fetched	source
+google-attestation-roots.json	b79beef96dd68073f1975bab90970ae85d1ae56d451a819ece6bff3d4e253ab4	2026-10-08	https://android.googleapis.com/attestation/root
+google-attestation-status.json	e39321c886afde01dfdb47ec0dca3ce770f2819fee1d7fb0398aeb5181427df5	2026-10-08	https://android.googleapis.com/attestation/status

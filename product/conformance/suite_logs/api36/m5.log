@@ -1,0 +1,26 @@
+[first-run] 3/3 checks passed
+  FAIL [first-run-ui] the first-run screen says what is about to happen and that nothing leaves the phone: expected True, got False
+[first-run-ui] 0/1 checks passed
+  FAIL [review-taps] both taps landed on their cards' chips: expected [True, True], got [False, False]
+[review-taps] 0/1 checks passed
+  FAIL [review-ui] the review lists each holder with where it came from: expected True, got False
+[review-ui] 0/1 checks passed
+  FAIL [review-finish] the Finish button was found and tapped: expected True, got False
+[review-finish] 0/1 checks passed
+  FAIL [after-first-review] the file on disk can be read back (decrypted and parsed): expected 'Loaded', got 'Empty'
+  FAIL [after-first-review] answers on disk = what was tapped (UNSURE for the unanswered): expected {'ACCESSIBILITY:lab.fixture.a11y/lab.fixture.FixtureA11yService': 'RECOGNIZED', 'DEVICE_ADMIN:lab.fixture.admin/lab.fixture.FixtureAdminReceiver': 'UNSURE', 'NOTIFICATION_LISTENER:lab.fixture.notif/lab.fixture.FixtureNotifListener': 'NOT_RECOGNIZED'}, got {}
+  FAIL [after-first-review] signing certificate stored with each answer = apksigner's: expected {'ACCESSIBILITY:lab.fixture.a11y/lab.fixture.FixtureA11yService': ['3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598'], 'DEVICE_ADMIN:lab.fixture.admin/lab.fixture.FixtureAdminReceiver': ['3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598'], 'NOTIFICATION_LISTENER:lab.fixture.notif/lab.fixture.FixtureNotifListener': ['3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598']}, got {}
+  FAIL [after-first-review] baseline date and reviewed snapshot are stored: expected True, got False
+  FAIL [after-first-review] after the review the inventory is reachable: no first-run screen: expected ['Inventory'], got ['FirstRun']
+  FAIL [after-first-review] nothing is up for review any more: expected [], got ['ACCESSIBILITY:lab.fixture.a11y/lab.fixture.FixtureA11yService', 'DEVICE_ADMIN:lab.fixture.admin/lab.fixture.FixtureAdminReceiver', 'NOTIFICATION_LISTENER:lab.fixture.notif/lab.fixture.FixtureNotifListener']
+  FAIL [after-first-review] nothing has changed since the baseline: expected 0, got None
+  FAIL [after-first-review] 'I do not recognize this' became a LOOK_FIRST finding in the report: expected True, got False
+[after-first-review] 2/10 checks passed
+Traceback (most recent call last):
+  File "C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\tools\conformance_m5.py", line 406, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\tools\conformance_m5.py", line 303, in main
+    Check("the answers already given are untouched", "RECOGNIZED", st["persisted"]["answers"][HOLDER_KEYS["a11y"][0]]["answer"]),
+                                                                   ~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'answers'

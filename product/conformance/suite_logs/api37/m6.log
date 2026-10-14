@@ -1,0 +1,36 @@
+[secure-window] 3/3 checks passed
+[announce-private-dns] 6/6 checks passed
+[announce-proxy] 4/4 checks passed
+[announce-proxy-removed] 3/3 checks passed
+[announce-developer-options] 4/4 checks passed
+[announce-developer-options-removed] 3/3 checks passed
+[announce-accessibility] 4/4 checks passed
+[announce-accessibility-off] 3/3 checks passed
+[announce-notification-listener] 4/4 checks passed
+[announce-notification-listener-off] 3/3 checks passed
+[announce-app-installed] 2/2 checks passed
+[announce-app-updated] 3/3 checks passed
+[announce-app-removed] 2/2 checks passed
+[hidden-app-limit] 3/3 checks passed
+[reread-device-admin] 2/2 checks passed
+  info: announcements after the administrator change: []
+[reread-special-access] 1/1 checks passed
+  info: announcements after the special access change: []
+[reread-screen-lock] 1/1 checks passed
+  info: announcements after the screen lock change: []
+[reread-screen-lock-removed] 1/1 checks passed
+[background] 4/4 checks passed
+[live-events-for-the-screen] 1/1 checks passed
+[live-card] 1/1 checks passed
+[live-open] 1/1 checks passed
+  FAIL [live-view-ui] it states the measurement with where it was measured: expected True, got False
+  FAIL [live-view-ui] it states the background limit: expected True, got False
+  FAIL [live-view-ui] it states that a hidden app is never announced: expected True, got False
+  FAIL [live-view-ui] it states what is re-read and how often: expected True, got False
+  FAIL [live-view-ui] it lists what was heard, in the product's words: expected True, got False
+[live-view-ui] 1/6 checks passed
+[blind-spots-open] 1/1 checks passed
+[blind-spots-ui] 7/7 checks passed
+[large-text-1.0] 3/3 checks passed
+[large-text-2.0] 3/3 checks passed
+74/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv

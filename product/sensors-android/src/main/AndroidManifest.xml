@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Normal permissions, granted at install with no prompt. They are what the network and device sensors need and
+        nothing more: no INTERNET, no location. ACCESS_NETWORK_STATE reads the state of the connection in use,
+        ACCESS_WIFI_STATE the Wi-Fi security type, QUERY_ADVANCED_PROTECTION_MODE (Android 16 and later) whether
+        Advanced Protection is on. The app build fails if anything beyond these appears (verifyManifestPolicy).
+    -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.QUERY_ADVANCED_PROTECTION_MODE" />
+
+    <!--
+        Package visibility without QUERY_ALL_PACKAGES. The sensors need it, so the declaration lives here and every app
+        that uses the sensors inherits it. The app sees apps that expose these components and apps with a launcher icon
+        (lab V1: identical capability holders to QUERY_ALL_PACKAGES). Apps with neither are invisible on Android 11 and
+        later; the blind-spot map says so in plain words. The app build fails if any of these entries goes missing.
+    -->
+    <queries>
+        <intent>
+            <action android:name="android.accessibilityservice.AccessibilityService" />
+        </intent>
+        <intent>
+            <action android:name="android.service.notification.NotificationListenerService" />
+        </intent>
+        <intent>
+            <action android:name="android.view.InputMethod" />
+        </intent>
+        <intent>
+            <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+        </intent>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent>
+    </queries>
+</manifest>

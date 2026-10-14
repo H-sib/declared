@@ -1,0 +1,16 @@
+[manifest] 1/1 checks passed
+[as-found] 30/30 checks passed
+[changed] 30/30 checks passed
+[user-ca] 5/5 checks passed
+[user-ca-removed] 5/5 checks passed
+  FAIL [on-screen] screen shows: This phone's settings: expected True, got False
+  FAIL [on-screen] screen shows: Last security update:: expected True, got False
+  FAIL [on-screen] screen shows: Screen lock:: expected True, got False
+  FAIL [on-screen] screen shows: USB debugging:: expected True, got False
+  FAIL [on-screen] screen shows: The network you are on: expected True, got False
+  FAIL [on-screen] screen shows: Connection:: expected True, got False
+  FAIL [on-screen] screen shows: Wi-Fi security:: expected True, got False
+  FAIL [on-screen] screen shows: Private DNS:: expected True, got False
+  FAIL [on-screen] screen shows: Web proxy:: expected True, got False
+[on-screen] 0/9 checks passed
+71/80 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv

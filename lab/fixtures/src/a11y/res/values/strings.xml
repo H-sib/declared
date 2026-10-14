@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a11y_description">Benign test fixture. Declares accessibility capabilities for an observability experiment and ignores all events.</string>
+</resources>

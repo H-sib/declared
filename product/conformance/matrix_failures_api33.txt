@@ -1,0 +1,39 @@
+--- api 33 m3.log
+FAIL [on-screen] screen shows: This phone's settings: expected True, got False
+FAIL [on-screen] screen shows: Last security update:: expected True, got False
+FAIL [on-screen] screen shows: Screen lock:: expected True, got False
+FAIL [on-screen] screen shows: USB debugging:: expected True, got False
+FAIL [on-screen] screen shows: The network you are on: expected True, got False
+FAIL [on-screen] screen shows: Connection:: expected True, got False
+FAIL [on-screen] screen shows: Wi-Fi security:: expected True, got False
+FAIL [on-screen] screen shows: Private DNS:: expected True, got False
+FAIL [on-screen] screen shows: Web proxy:: expected True, got False
+--- api 33 m5.log
+FAIL [first-run-ui] the first-run screen says what is about to happen and that nothing leaves the phone: expected True, got False
+FAIL [review-taps] both taps landed on their cards' chips: expected [True, True], got [False, False]
+FAIL [review-ui] the review lists each holder with where it came from: expected True, got False
+FAIL [review-finish] the Finish button was found and tapped: expected True, got False
+FAIL [after-first-review] the file on disk can be read back (decrypted and parsed): expected 'Loaded', got 'Empty'
+FAIL [after-first-review] answers on disk = what was tapped (UNSURE for the unanswered): expected {'ACCESSIBILITY:lab.fixture.a11y/lab.fixture.FixtureA11yService': 'RECOGNIZED', 'DEVICE_ADMIN:lab.fixture.admin/lab.fixture.FixtureA
+FAIL [after-first-review] signing certificate stored with each answer = apksigner's: expected {'ACCESSIBILITY:lab.fixture.a11y/lab.fixture.FixtureA11yService': ['3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598'], 
+FAIL [after-first-review] baseline date and reviewed snapshot are stored: expected True, got False
+FAIL [after-first-review] after the review the inventory is reachable: no first-run screen: expected ['Inventory'], got ['FirstRun']
+FAIL [after-first-review] nothing is up for review any more: expected [], got ['ACCESSIBILITY:lab.fixture.a11y/lab.fixture.FixtureA11yService', 'DEVICE_ADMIN:lab.fixture.admin/lab.fixture.FixtureAdminReceiver', 'NOTIFICATION_LISTE
+FAIL [after-first-review] nothing has changed since the baseline: expected 0, got None
+FAIL [after-first-review] 'I do not recognize this' became a LOOK_FIRST finding in the report: expected True, got False
+Traceback (most recent call last):
+--- api 33 m6.log
+FAIL [announce-proxy-removed] web proxy removed: announced 'The web proxy setting changed': expected True, got False
+FAIL [live-card] the first screen has the live view card saying it is watching while the app is on screen: expected True, got False
+FAIL [live-open] the live view card opens the live view: expected True, got False
+FAIL [live-view-ui] the live view says it is watching: expected True, got False
+FAIL [live-view-ui] it states the measurement with where it was measured: expected True, got False
+FAIL [live-view-ui] it states the background limit: expected True, got False
+FAIL [live-view-ui] it states that a hidden app is never announced: expected True, got False
+FAIL [live-view-ui] it states what is re-read and how often: expected True, got False
+FAIL [live-view-ui] it lists what was heard, in the product's words: expected True, got False
+FAIL [blind-spots-open] the full map opens from the first screen: expected True, got False
+FAIL [blind-spots-ui] both halves are there: expected True, got False
+FAIL [blind-spots-ui] the hidden-apps entry gives the number of apps this phone shows: expected True, got False
+FAIL [blind-spots-ui] it states the measured recall limit: expected True, got False
+FAIL [blind-spots-ui] the unreadable signals of this phone are named with their reasons: expected True, got False

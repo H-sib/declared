@@ -1,0 +1,25 @@
+[first-run] 3/3 checks passed
+[first-run-ui] 1/1 checks passed
+[review-taps] 1/1 checks passed
+[review-ui] 1/1 checks passed
+[review-finish] 1/1 checks passed
+[after-first-review] 10/10 checks passed
+[new-since-baseline] 4/4 checks passed
+[changes-persist] 1/1 checks passed
+[what-changed-ui] 1/1 checks passed
+[acknowledged] 4/4 checks passed
+[later-review] 2/2 checks passed
+[signer-changed] 4/4 checks passed
+Traceback (most recent call last):
+  File "C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\tools\conformance_m5.py", line 411, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\tools\conformance_m5.py", line 365, in main
+    after_update = launch(serial)["state"]["persisted"]
+                   ~~~~~~^^^^^^^^
+  File "C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\tools\conformance_m5.py", line 156, in launch
+    return m1.launch_and_pull(serial, APP["id"], timeout)
+           ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\tools\conformance_m1.py", line 290, in launch_and_pull
+    raise TimeoutError(f"the app wrote no conformance file within {timeout}s (run {run_id})")
+TimeoutError: the app wrote no conformance file within 90s (run 1d8fcd3a20)

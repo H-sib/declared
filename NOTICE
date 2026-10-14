@@ -1,0 +1,10 @@
+Declared
+Copyright 2026 Declared contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This product bundles reference data that Google publishes for checking Android key attestation: the attestation root
+certificates and the certificate status list (product/sensors-android/src/main/assets/attestation/, fetched
+2026-10-08 from https://android.googleapis.com/attestation/root and /status, unchanged, with a manifest of SHA-256
+checksums). Google retains whatever rights it has in that data.
+

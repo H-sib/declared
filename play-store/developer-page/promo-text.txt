@@ -1,0 +1,1 @@
+Small Android apps by H-sib. They run on your phone, ask for as little as they can, and say plainly what they do. First up: Declared.

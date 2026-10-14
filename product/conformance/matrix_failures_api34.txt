@@ -1,0 +1,16 @@
+--- api 34 m6.log
+FAIL [secure-window] the Block screenshots switch is found and pressed: expected [True, True], got [False, False]
+FAIL [secure-window] with Block screenshots on, the window carries the SECURE flag: expected True, got False
+FAIL [secure-window] a screenshot of the blocked window yields no usable image (empty, or far smaller than one without the flag): expected True, got False
+FAIL [announce-private-dns] Private DNS: 'The Private DNS mode changed' arrived within 3 s of the change (device clock): expected 'under 3000 ms', got 5740
+FAIL [announce-private-dns] Private DNS: 'The Private DNS server name changed' arrived within 3 s of the change (device clock): expected 'under 3000 ms', got 6340
+FAIL [announce-app-installed] the number of apps the report lists went up by one: expected 107, got 106
+FAIL [live-card] the More tab has the live view row saying it is watching: expected True, got False
+--- api 34 m9.log
+FAIL [setup] the app reaches the home screen after the first review: expected True, got False
+FAIL [tour] a new person is offered the tour on the home screen: expected True, got False
+FAIL [tour] the tour card is tapped: expected True, got False
+FAIL [tour] the tour opens on its first page: expected True, got False
+FAIL [tour] the last page is about the simple view and ends in Done: expected True, got False
+FAIL [tour] Done is tapped: expected True, got False
+FAIL [simple] the home screen states what needs attention in plain words: expected True, got False

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- testOnly lets adb remove a fixture device admin on production firmware. Without it the shell refuses
+         ("Attempt to remove non-test admin") and only the user can deactivate it. Such apps need adb install -t. -->
+    <application
+        android:allowBackup="false"
+        android:label="Fixture ${role}"
+        android:testOnly="true">
+
+        <activity
+            android:name=".FixtureActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

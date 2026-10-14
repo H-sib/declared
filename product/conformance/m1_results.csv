@@ -1,0 +1,59 @@
+run,api,phase,check,expected,actual,result
+2026-10-09T00:36:02,34,manifest,APK requests no permission except AndroidX's private one,"[""io.github.placeholder.candor.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION""]","[""io.github.placeholder.candor.debug.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION""]",PASS
+2026-10-09T00:36:02,34,fixture-disabled,installed services = system's list,"[""com.android.systemui.accessibility.accessibilitymenu/com.android.systemui.accessibility.accessibilitymenu.AccessibilityMenuService"", ""com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService"", ""com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"", ""lab.fixture.a11y/lab.fixture.FixtureA11yService""]","[""com.android.systemui.accessibility.accessibilitymenu/com.android.systemui.accessibility.accessibilitymenu.AccessibilityMenuService"", ""com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService"", ""com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"", ""lab.fixture.a11y/lab.fixture.FixtureA11yService""]",PASS
+2026-10-09T00:36:02,34,fixture-disabled,"enabled (manager) = settings value, among installed",[],[],PASS
+2026-10-09T00:36:02,34,fixture-disabled,enabled (cross-check setting) = settings value,[],[],PASS
+2026-10-09T00:36:02,34,fixture-disabled,findings = enabled and installed services,[],[],PASS
+2026-10-09T00:36:02,34,fixture-disabled,fixture is listed as a holder,true,true,PASS
+2026-10-09T00:36:02,34,fixture-disabled,fixture holder.enabled,false,false,PASS
+2026-10-09T00:36:02,34,fixture-disabled,fixture finding present iff enabled,false,false,PASS
+2026-10-09T00:36:02,34,fixture-disabled,declared ability bits = XML resource,33,33,PASS
+2026-10-09T00:36:02,34,fixture-disabled,holder abilities = decoded bits,"[""window-content"", ""gestures""]","[""window-content"", ""gestures""]",PASS
+2026-10-09T00:36:02,34,fixture-disabled,service label = manifest <service> label,"""Fixture accessibility""","""Fixture accessibility""",PASS
+2026-10-09T00:36:02,34,fixture-disabled,no unrecognized ability bits,0,0,PASS
+2026-10-09T00:36:02,34,fixture-disabled,package facts read,true,true,PASS
+2026-10-09T00:36:02,34,fixture-disabled,installer = dumpsys,null,null,PASS
+2026-10-09T00:36:02,34,fixture-disabled,initiating package = dumpsys,"""com.android.shell""","""com.android.shell""",PASS
+2026-10-09T00:36:02,34,fixture-disabled,signer SHA-256 = apksigner,"[""3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598""]","[""3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598""]",PASS
+2026-10-09T00:36:02,34,fixture-disabled,app label = aapt2 badging,"""Fixture a11y""","""Fixture a11y""",PASS
+2026-10-09T00:36:02,34,fixture-disabled,system flag = false (not in `pm list -s`),false,false,PASS
+2026-10-09T00:36:02,34,fixture-disabled,install record readable,true,true,PASS
+2026-10-09T00:36:02,34,fixture-disabled,tier follows the documented rule,"""ADB""","""ADB""",PASS
+2026-10-09T00:36:02,34,fixture-disabled,accessibility signal available,"""AVAILABLE""","""AVAILABLE""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,installed services = system's list,"[""com.android.systemui.accessibility.accessibilitymenu/com.android.systemui.accessibility.accessibilitymenu.AccessibilityMenuService"", ""com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService"", ""com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"", ""lab.fixture.a11y/lab.fixture.FixtureA11yService""]","[""com.android.systemui.accessibility.accessibilitymenu/com.android.systemui.accessibility.accessibilitymenu.AccessibilityMenuService"", ""com.google.android.marvin.talkback/com.google.android.accessibility.selecttospeak.SelectToSpeakService"", ""com.google.android.marvin.talkback/com.google.android.marvin.talkback.TalkBackService"", ""lab.fixture.a11y/lab.fixture.FixtureA11yService""]",PASS
+2026-10-09T00:36:02,34,fixture-enabled,"enabled (manager) = settings value, among installed","[""lab.fixture.a11y/lab.fixture.FixtureA11yService""]","[""lab.fixture.a11y/lab.fixture.FixtureA11yService""]",PASS
+2026-10-09T00:36:02,34,fixture-enabled,enabled (cross-check setting) = settings value,"[""lab.fixture.a11y/lab.fixture.FixtureA11yService""]","[""lab.fixture.a11y/lab.fixture.FixtureA11yService""]",PASS
+2026-10-09T00:36:02,34,fixture-enabled,findings = enabled and installed services,"[""accessibility:lab.fixture.a11y/lab.fixture.FixtureA11yService""]","[""accessibility:lab.fixture.a11y/lab.fixture.FixtureA11yService""]",PASS
+2026-10-09T00:36:02,34,fixture-enabled,fixture is listed as a holder,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,fixture holder.enabled,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,fixture finding present iff enabled,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,declared ability bits = XML resource,33,33,PASS
+2026-10-09T00:36:02,34,fixture-enabled,holder abilities = decoded bits,"[""window-content"", ""gestures""]","[""window-content"", ""gestures""]",PASS
+2026-10-09T00:36:02,34,fixture-enabled,service label = manifest <service> label,"""Fixture accessibility""","""Fixture accessibility""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,no unrecognized ability bits,0,0,PASS
+2026-10-09T00:36:02,34,fixture-enabled,package facts read,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,installer = dumpsys,null,null,PASS
+2026-10-09T00:36:02,34,fixture-enabled,initiating package = dumpsys,"""com.android.shell""","""com.android.shell""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,signer SHA-256 = apksigner,"[""3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598""]","[""3818b532b7adcdcd60e2e97a4ff773f8c496dccbab020d914b087f6ec22e6598""]",PASS
+2026-10-09T00:36:02,34,fixture-enabled,app label = aapt2 badging,"""Fixture a11y""","""Fixture a11y""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,system flag = false (not in `pm list -s`),false,false,PASS
+2026-10-09T00:36:02,34,fixture-enabled,install record readable,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,tier follows the documented rule,"""ADB""","""ADB""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,"finding attention (strong abilities, adb origin)","""LOOK_FIRST""","""LOOK_FIRST""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,finding claim confidence (weakest of its evidence),"""HIGH""","""HIGH""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,enabled observation is OBSERVED,"""OBSERVED""","""OBSERVED""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,capability observation is DECLARED,"""DECLARED""","""DECLARED""",PASS
+2026-10-09T00:36:02,34,fixture-enabled,capability observation value,"[""window-content"", ""gestures""]","[""window-content"", ""gestures""]",PASS
+2026-10-09T00:36:02,34,fixture-enabled,every observation names its source,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,finding states what it cannot tell,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,finding offers actions with costs,true,true,PASS
+2026-10-09T00:36:02,34,fixture-enabled,accessibility signal available,"""AVAILABLE""","""AVAILABLE""",PASS
+2026-10-09T00:36:02,34,on-screen,inventory shows the finding title,true,true,PASS
+2026-10-09T00:36:02,34,on-screen,inventory shows 'Look at this first',true,true,PASS
+2026-10-09T00:36:02,34,on-screen,inventory states what it cannot see,true,true,PASS
+2026-10-09T00:36:02,34,on-screen-detail,detail shows section 'What I saw',true,true,PASS
+2026-10-09T00:36:02,34,on-screen-detail,detail shows section 'Where I got it',true,true,PASS
+2026-10-09T00:36:02,34,on-screen-detail,detail shows section 'What it means',true,true,PASS
+2026-10-09T00:36:02,34,on-screen-detail,detail shows section 'How sure I am',true,true,PASS
+2026-10-09T00:36:02,34,on-screen-detail,detail shows section 'What I cannot tell',true,true,PASS
+2026-10-09T00:36:02,34,on-screen-detail,"detail shows section 'What you can do, and what it costs'",true,true,PASS

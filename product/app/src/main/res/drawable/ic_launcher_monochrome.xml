@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The same mark in one color for the themed icon. The mark: an H (for H-sib) made of two halves of one token, cut along a stepped line. Kept inside the 66dp safe zone of an adaptive icon. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34.00,34.00 L45.67,34.00 L45.67,49.00 L55.67,49.00 L55.67,54.00 L52.33,54.00 L52.33,59.00 L45.67,59.00 L45.67,74.00 L34.00,74.00 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62.33,34.00 L74.00,34.00 L74.00,74.00 L62.33,74.00 L62.33,59.00 L54.33,59.00 L54.33,54.00 L57.67,54.00 L57.67,49.00 L62.33,49.00 Z" />
+</vector>

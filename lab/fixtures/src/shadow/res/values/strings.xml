@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="shadow_description">Benign test fixture. Has the shape of an app made to watch someone, for an attack-path experiment, and does nothing.</string>
+</resources>

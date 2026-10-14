@@ -1,0 +1,13 @@
+﻿# Build output and local machine files
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+*.keystore
+*.jks
+# IDE
+.idea/
+*.iml
+# Conformance runs write results.csv and screenshots on purpose; those ARE tracked.
+__pycache__/

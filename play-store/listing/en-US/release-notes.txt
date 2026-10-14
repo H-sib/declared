@@ -1,0 +1,9 @@
+First test release.
+• Home status, grouped findings and one-tap fixes
+• Plain-words explanations for jargon
+• Attack paths with a preview that changes nothing
+• A signed history and tripwires
+• Simple view for anyone new to this
+• Optional automatic checks with your own interval
+• A short tour and intro
+Tell us what is confusing. That is what this test is for.

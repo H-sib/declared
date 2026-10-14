@@ -1,0 +1,2 @@
+--- api 35 m6.log
+FAIL [large-text-2.0] font scale 2.0: every touch target is at least 48dp: expected [], got ["first screen: <no label> is 996x121px, below 48dp (id none, top 2279, near ['What changed since you last lo'])"]

@@ -1,0 +1,277 @@
+api 29: a11y: PASS in 83s: (no output)
+api 29: m2: FAIL in 219s: 130/135 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 29: m3: FAIL in 88s: 64/68 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 29: m4: FAIL in 54s: 62/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 29: m5: FAIL in 239s: 42/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 29: m6: FAIL in 376s: 74/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 29: m7: FAIL in 464s: 88/110 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 29: m8: FAIL in 328s: m8: 54 checks, 3 failed
+api 29: suite: 7 step(s) failed
+api 29: finished in 34 min, image kept for a look
+api 31: a11y: PASS in 83s: (no output)
+api 31: m2: FAIL in 275s: 258/259 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 31: m3: PASS in 98s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 31: m4: FAIL in 58s: 62/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 31: m5: PASS in 253s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 31: m6: FAIL in 419s: 78/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 31: m7: PASS in 510s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 31: m8: FAIL in 178s: m8: 59 checks, 1 failed
+api 31: suite: 4 step(s) failed
+api 31: finished in 35 min, image deleted
+api 33: a11y: PASS in 135s: (no output)
+api 33: m2: FAIL in 567s: 275/288 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 33: m3: PASS in 112s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 33: m4: PASS in 61s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 33: m5: PASS in 328s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 33: m6: FAIL in 438s: 77/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 33: m7: PASS in 530s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 33: m8: FAIL in 186s: m8: 59 checks, 1 failed
+api 33: suite: 3 step(s) failed
+api 33: finished in 44 min, image deleted
+api 35: a11y: PASS in 154s: (no output)
+api 35: m2: FAIL in 298s: 279/291 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 35: m3: PASS in 99s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 35: m4: PASS in 66s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 35: m5: PASS in 320s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 35: m6: FAIL in 452s: 78/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 35: m7: PASS in 534s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 35: m8: PASS in 187s: m8: 59 checks, 0 failed
+api 35: suite: 2 step(s) failed
+api 35: finished in 40 min, image deleted
+api 36: a11y: PASS in 173s: (no output)
+api 36: m2: FAIL in 348s: 287/303 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 36: m3: PASS in 113s: 82/82 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 36: m4: PASS in 71s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 36: m5: PASS in 387s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 36: m6: FAIL in 461s: 77/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 36: m7: FAIL in 593s: 80/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 36: m8: PASS in 191s: m8: 59 checks, 0 failed
+api 36: suite: 3 step(s) failed
+api 36: finished in 45 min, image deleted
+api 37: a11y: FAIL in 73s: BUILD FAILED in 1m 12s
+api 37: m2: FAIL in 599s: 279/308 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 37: m3: FAIL in 138s: 62/70 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 37: m4: PASS in 69s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 37: m5: PASS in 343s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 37: m6: FAIL in 457s: 70/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 37: m7: FAIL in 2082s: 73/110 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 37: m8: FAIL in 377s: m8: 46 checks, 3 failed
+api 37: suite: 6 step(s) failed
+api 37: finished in 88 min, image deleted
+--- rerun after the fixes of 2026-10-09 (app: Android 17 network, Android 10 tripwires; scripts: version-aware expectations) ---
+api 34: a11y: PASS in 148s: (no output)
+api 34: m2: PASS in 320s: 297/297 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 34: m3: PASS in 119s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 34: m4: PASS in 69s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 34: m5: PASS in 347s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 34: m6: PASS in 464s: 79/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: m7: PASS in 583s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 34: m8: FAIL in 197s: m8: 59 checks, 1 failed
+api 34: suite: 1 step(s) failed
+api 34: finished in 39 min, image deleted
+api 29: a11y: PASS in 77s: (no output)
+api 29: m2: PASS in 219s: 135/135 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 29: m3: PASS in 87s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 29: m4: PASS in 53s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 29: m5: FAIL in 229s: 42/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 29: m6: FAIL in 373s: 77/78 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 29: m7: PASS in 448s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 29: m8: PASS in 126s: m8: 53 checks, 0 failed
+api 29: suite: 2 step(s) failed
+api 29: finished in 27 min, image deleted
+api 31: a11y: PASS in 78s: (no output)
+api 31: m2: PASS in 266s: 259/259 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 31: m3: PASS in 98s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 31: m4: PASS in 58s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 31: m5: PASS in 245s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 31: m6: FAIL in 415s: 78/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 31: m7: PASS in 506s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 31: m8: PASS in 180s: m8: 59 checks, 0 failed
+api 31: suite: 1 step(s) failed
+api 31: finished in 35 min, image deleted
+api 33: a11y: PASS in 102s: (no output)
+api 33: m2: PASS in 284s: 289/289 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 33: m3: FAIL in 105s: 78/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 33: m4: PASS in 61s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 33: m5: PASS in 316s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 33: m6: FAIL in 438s: 78/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 33: m7: PASS in 527s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 33: m8: PASS in 191s: m8: 59 checks, 0 failed
+api 33: suite: 2 step(s) failed
+api 33: finished in 39 min, image deleted
+api 35: a11y: PASS in 122s: (no output)
+api 35: m2: PASS in 298s: 291/291 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 35: m3: PASS in 102s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 35: m4: PASS in 71s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 35: m5: PASS in 317s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 35: m6: FAIL in 445s: 78/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 35: m7: PASS in 511s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 35: m8: PASS in 185s: m8: 59 checks, 0 failed
+api 35: suite: 1 step(s) failed
+api 35: finished in 39 min, image deleted
+api 36: a11y: PASS in 182s: (no output)
+api 36: m2: PASS in 310s: 307/307 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 36: m3: PASS in 103s: 82/82 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 36: m4: PASS in 68s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 36: m5: PASS in 340s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 36: m6: FAIL in 463s: 77/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 36: m7: FAIL in 563s: 80/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 36: m8: PASS in 189s: m8: 59 checks, 0 failed
+api 36: suite: 2 step(s) failed
+api 36: finished in 43 min, image deleted
+api 37: a11y: FAIL in 64s: BUILD FAILED in 1m 3s
+api 37: m2: PASS in 361s: 313/313 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 37: m3: PASS in 112s: 82/82 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 37: m4: PASS in 68s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 37: m5: PASS in 349s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 37: m6: FAIL in 455s: 77/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 37: m7: FAIL in 10136s: [phone-changed] 11/15 checks passed
+api 37: m8: FAIL in 125s: subprocess.TimeoutExpired: Command '['C:\\Users\\lordhasib\\AndroidLab\\sdk\\platform-tools\\adb.exe', '-s', 'emulator-5554', 'shell', 'am start -S -W -n io.git
+api 37: suite: 4 step(s) failed
+api 37: finished in 196 min, image deleted
+--- pass 3: only the steps that failed in pass 2, after the second round of fixes ---
+api 34: m8: FAIL in 124s: m8: 1 checks, 1 failed
+api 34: suite: 1 step(s) failed
+api 34: finished in 6 min, image deleted
+api 29: m5: PASS in 263s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 29: m6: PASS in 375s: 78/78 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 29: suite: 0 step(s) failed
+api 29: finished in 14 min, image deleted
+api 31: m5: PASS in 292s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 31: m6: PASS in 413s: 79/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 31: suite: 0 step(s) failed
+api 31: finished in 15 min, image deleted
+--- pass 3 (continued after a restart): the steps still to run ---
+--- pass 3 (continued after a restart): the steps still to run ---
+api 34: m8: FAIL in 1050s: m8: 44 checks, 6 failed
+api 34: suite: 1 step(s) failed
+api 34: finished in 50 min, image deleted
+api 33: m3: FAIL in 296s: 71/80 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 33: m5: FAIL in 238s: [after-first-review] 2/10 checks passed
+api 33: m6: FAIL in 1039s: 61/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 33: suite: 3 step(s) failed
+api 33: finished in 27 min, image deleted
+api 35: the emulator did not come up within 30s (see C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\emu_api35.log)
+api 35: finished in 0 min, image deleted
+api 36: the emulator did not come up within 30s (see C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\emu_api36.log)
+api 36: finished in 0 min, image deleted
+api 37: the emulator did not come up within 30s (see C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\emu_api37.log)
+api 37: finished in 0 min, image deleted
+--- pass 3, second continuation (PC kept awake, emulator start retried): 34 m8, 36, 37, then 33 and 35 ---
+--- pass 3, second continuation (PC kept awake, emulator start retried): 34 m8, 36, 37, then 33 and 35 ---
+api 34: m8: FAIL in 1161s: m8: 44 checks, 5 failed
+api 34: suite: 1 step(s) failed
+api 34: finished in 25 min, image deleted
+api 36: m5: FAIL in 519s: [after-first-review] 2/10 checks passed
+api 36: m6: FAIL in 1162s: 63/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 36: m7: PASS in 782s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 36: suite: 2 step(s) failed
+api 36: finished in 48 min, image deleted
+--- pass 3, third continuation (the app is installed and compiled and the image settles before the UI steps): 37, 36, 34 ---
+--- pass 3, third continuation (the app is installed and compiled and the image settles before the UI steps): 37, 36, 34 ---
+api 37: m5: FAIL in 471s: [after-first-review] 2/10 checks passed
+api 37: m6: FAIL in 1164s: 62/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 37: m7: PASS in 797s: 110/110 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 37: m8: FAIL in 879s: m8: 56 checks, 5 failed
+api 37: suite: 3 step(s) failed
+api 37: finished in 61 min, image deleted
+api 36: m5: FAIL in 469s: [after-first-review] 2/10 checks passed
+api 36: m6: FAIL in 1228s: 63/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 36: suite: 2 step(s) failed
+api 36: finished in 54 min, image deleted
+api 34: m8: FAIL in 625s: m8: 59 checks, 1 failed
+api 34: suite: 1 step(s) failed
+api 34: finished in 17 min, image deleted
+--- pass 4, after the rename to Declared and the first-run wait fix: 37 (m5, m6, m8), then 34 (the whole suite) ---
+api 37: m5: FAIL in 706s: [signer-changed] 4/4 checks passed
+api 37: m6: FAIL in 603s: 74/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 37: m8: PASS in 331s: m8: 59 checks, 0 failed
+api 37: suite: 2 step(s) failed
+api 37: finished in 36 min, image deleted
+api 34: a11y: PASS in 269s: (no output)
+api 34: m2: PASS in 509s: 297/297 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 34: m3: PASS in 189s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 34: m4: PASS in 115s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 34: m5: FAIL in 617s: [file-on-disk] 1/1 checks passed
+api 34: m6: FAIL in 460s: [background] 3/4 checks passed
+api 34: m7: FAIL in 211s: TimeoutError: the app wrote no conformance file within 90s (run 65d89cbd3b)
+api 34: m8: FAIL in 162s: m8: 1 checks, 1 failed
+api 34: suite: 4 step(s) failed
+api 34: finished in 49 min, image deleted
+--- pass 5, Android 14 again with longer limits (the machine was 1.7 times slower than before): m5 to m8 ---
+api 34: m5: PASS in 965s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 34: m6: FAIL in 724s: 78/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: m7: PASS in 826s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 34: m8: PASS in 324s: m8: 59 checks, 0 failed
+api 34: suite: 1 step(s) failed
+api 34: finished in 54 min, image kept for a look
+--- pass 6, stage 4a: the new home screen, theme and fonts, Android 14, the whole suite ---
+api 34: a11y: FAIL in 154s: BUILD FAILED in 2m 33s
+api 34: suite: 1 step(s) failed
+api 34: finished in 7 min, image deleted
+api 34: a11y: FAIL in 312s: BUILD FAILED in 5m 11s
+api 34: suite: 1 step(s) failed
+api 34: finished in 12 min, image deleted
+api 34: a11y: FAIL in 345s: BUILD FAILED in 5m 44s
+api 34: suite: 1 step(s) failed
+api 34: finished in 12 min, image deleted
+api 34: a11y: PASS in 309s: (no output)
+api 34: suite: 0 step(s) failed
+api 34: finished in 12 min, image deleted
+api 34: m2: FAIL in 60s: RuntimeError: adb failed (C:\Users\lordhasib\AndroidLab\sdk\platform-tools\adb.exe -s emulator-5554 install -t -r C:\Users\lordhasib\Desktop\Projects\Ethical li
+api 34: m3: FAIL in 382s: 75/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 34: m4: FAIL in 207s: 57/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 34: suite: 3 step(s) failed
+api 34: finished in 18 min, image deleted
+api 34: m2: PASS in 672s: 297/297 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 34: m3: PASS in 248s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 34: m4: PASS in 130s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 34: m5: FAIL in 995s: 41/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 34: suite: 1 step(s) failed
+api 34: finished in 37 min, image deleted
+api 34: a11y: PASS in 408s: (no output)
+api 34: m5: FAIL in 937s: 43/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 34: suite: 1 step(s) failed
+api 34: finished in 29 min, image deleted
+api 34: m9: FAIL in 536s: 38/40 checks passed
+api 34: suite: 1 step(s) failed
+api 34: finished in 12 min, image deleted
+api 34: a11y: PASS in 571s: (no output)
+api 34: m2: PASS in 489s: 297/297 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m2_results.csv
+api 34: m3: FAIL in 244s: 83/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 34: m4: PASS in 127s: 63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv
+api 34: m5: PASS in 989s: 44/44 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m5_results.csv
+api 34: m6: FAIL in 2428s: 75/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: m7: PASS in 1062s: 111/111 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m7_results.csv
+api 34: m8: PASS in 392s: m8: 59 checks, 0 failed
+api 34: m9: FAIL in 381s: 39/40 checks passed
+api 34: suite: 3 step(s) failed
+api 34: finished in 115 min, image deleted
+api 34: m3: PASS in 426s: 84/84 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m3_results.csv
+api 34: m6: FAIL in 652s: 77/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: m9: PASS in 384s: 40/40 checks passed
+api 34: suite: 1 step(s) failed
+api 34: finished in 28 min, image deleted
+api 34: m6: FAIL in 775s: 76/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: suite: 1 step(s) failed
+api 34: finished in 19 min, image deleted
+api 34: m6: FAIL in 765s: 78/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: suite: 1 step(s) failed
+api 34: finished in 24 min, image deleted
+api 34: m6: FAIL in 1084s: 76/81 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: m9: PASS in 417s: 40/40 checks passed
+api 34: suite: 1 step(s) failed
+api 34: finished in 28 min, image deleted
+api 34: m6: FAIL in 1270s: 77/81 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: suite: 1 step(s) failed
+api 34: finished in 28 min, image deleted
+api 34: m6: FAIL in 1663s: 74/81 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv
+api 34: suite: 1 step(s) failed
+api 34: finished in 31 min, image deleted
+api 34: a11y: PASS in 572s: (no output)
+api 34: m9: FAIL in 1233s: 30/40 checks passed
+api 34: suite: 1 step(s) failed
+api 34: finished in 33 min, image deleted
+api 34: m9: FAIL in 1179s: 33/40 checks passed
+api 34: suite: 1 step(s) failed
+api 34: finished in 32 min, image deleted

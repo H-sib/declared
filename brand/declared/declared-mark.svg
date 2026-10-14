@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>Declared mark</title>
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18244A"/><stop offset="1" stop-color="#0A0F1E"/></linearGradient>
+    <radialGradient id="aura" cx="0.62" cy="0.5" r="0.5"><stop offset="0" stop-color="#3CC8F0" stop-opacity="0.45"/><stop offset="1" stop-color="#3CC8F0" stop-opacity="0"/></radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#B9C6EE"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7BE9FF"/><stop offset="1" stop-color="#1C9BE6"/></linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <g filter="url(#shadow)" opacity="0.45"><polygon points="246.00,260.00 401.17,260.00 401.17,459.50 534.17,459.50 534.17,526.00 489.83,526.00 489.83,592.50 401.17,592.50 401.17,792.00 246.00,792.00" fill="#000"/><polygon points="622.83,260.00 778.00,260.00 778.00,792.00 622.83,792.00 622.83,592.50 516.43,592.50 516.43,526.00 560.77,526.00 560.77,459.50 622.83,459.50" fill="#000"/></g>
+  <polygon points="622.83,246.00 778.00,246.00 778.00,778.00 622.83,778.00 622.83,578.50 516.43,578.50 516.43,512.00 560.77,512.00 560.77,445.50 622.83,445.50" fill="#7BE9FF" filter="url(#glow)" opacity="0.6"/>
+  <polygon points="246.00,246.00 401.17,246.00 401.17,445.50 534.17,445.50 534.17,512.00 489.83,512.00 489.83,578.50 401.17,578.50 401.17,778.00 246.00,778.00" fill="url(#silver)"/>
+  <polygon points="622.83,246.00 778.00,246.00 778.00,778.00 622.83,778.00 622.83,578.50 516.43,578.50 516.43,512.00 560.77,512.00 560.77,445.50 622.83,445.50" fill="url(#cyan)"/>
+  <polygon points="246.00,246.00 401.17,246.00 401.17,445.50 534.17,445.50 534.17,512.00 489.83,512.00 489.83,578.50 401.17,578.50 401.17,778.00 246.00,778.00" fill="url(#sheen)"/><polygon points="622.83,246.00 778.00,246.00 778.00,778.00 622.83,778.00 622.83,578.50 516.43,578.50 516.43,512.00 560.77,512.00 560.77,445.50 622.83,445.50" fill="url(#sheen)"/>
+</svg>

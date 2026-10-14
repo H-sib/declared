@@ -1,0 +1,12 @@
+--- api 37 a11y.log
+FAILURE: Build failed with an exception.
+Execution failed for task ':app:connectedDebugAndroidTest' (registered by plugin 'com.android.internal.application').
+BUILD FAILED in 1m 3s
+--- api 37 m5.log
+Traceback (most recent call last):
+--- api 37 m6.log
+FAIL [live-view-ui] it states the measurement with where it was measured: expected True, got False
+FAIL [live-view-ui] it states the background limit: expected True, got False
+FAIL [live-view-ui] it states that a hidden app is never announced: expected True, got False
+FAIL [live-view-ui] it states what is re-read and how often: expected True, got False
+FAIL [live-view-ui] it lists what was heard, in the product's words: expected True, got False

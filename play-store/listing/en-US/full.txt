@@ -1,0 +1,30 @@
+Which apps on your phone can read your screen, see your notifications or install other apps? Declared tells you in plain words, and shows you where to switch each one off.
+
+Every Android app declares what it can do. Almost nobody reads that part. Declared reads it for you.
+
+WHAT YOU GET
+• A clear home screen: what needs a look, how much was checked, and one button to check again.
+• Findings sorted by how much they matter. Apps with the same ability are grouped, so the list stays short.
+• Every finding in plain words: what it means, what to do, and a button that opens the exact Android setting.
+• Jargon explained on the spot. "Notification listener", "device administrator" and "overlay" each come with one clear line.
+• Attack paths: how someone could reach what matters on your phone, and the smallest set of changes that would stop it. Preview a change first. Nothing on your phone is touched.
+• A history of your phone. Every check is kept on your phone, linked to the one before and signed, so an edit to the past shows. It also tells you when a fingerprint was added or the screen lock was removed.
+• A simple view for anyone new to this: bigger text, three places instead of five, one card per thing and one big button to act.
+• Optional automatic checks. Pick any interval from 15 minutes to a year. You get one notification when something needs a look. Off until you turn it on.
+
+WHAT IT LOOKS AT
+Accessibility services, notification access, device administrators, keyboards, apps that can draw over other apps, usage access, apps that can install other apps, text-message access, screen lock, security update age, USB and wireless debugging, developer options, Wi-Fi security, web proxy, added certificate authorities and Private DNS.
+
+PRIVATE BY DESIGN
+• No internet permission. The app cannot send anything anywhere, and the build refuses to add that permission.
+• No account, no ads, no analytics, no tracking.
+• What it keeps stays encrypted on your phone. Uninstall it and it is gone.
+• Open source under Apache-2.0, so anyone can check these claims.
+
+HONEST ABOUT ITS LIMITS
+Declared has a screen that lists what it cannot see: what other apps do, what leaves your phone, apps that hide. It never gives a score and never says your phone is safe, because a reading cannot know that. It is not an antivirus. It does not scan files, remove anything or speed anything up. It tells you what is allowed. You decide.
+
+BUILT FOR PEOPLE, NOT EXPERTS
+Open it, tap Check, and follow the cards. A one minute tour is built in.
+
+Made by H-sib.

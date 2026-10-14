@@ -1,0 +1,10 @@
+[chain-real] 8/8 checks passed
+[chain-tampered] 8/8 checks passed
+[chain-selfAnchored] 8/8 checks passed
+[chain-selfAnchoredTampered] 8/8 checks passed
+[outcomes] 6/6 checks passed
+[attestation-record] 10/10 checks passed
+[reference-data] 4/4 checks passed
+[panel] 5/5 checks passed
+[on-screen] 6/6 checks passed
+63/63 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m4_results.csv

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <title>H-sib app icon template</title>
+  <defs>
+    <linearGradient id="plate" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#18244A"/><stop offset="1" stop-color="#0A0F1E"/></linearGradient>
+    <radialGradient id="aura" cx="0.62" cy="0.5" r="0.5"><stop offset="0" stop-color="#3CC8F0" stop-opacity="0.45"/><stop offset="1" stop-color="#3CC8F0" stop-opacity="0"/></radialGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#B9C6EE"/></linearGradient>
+    <linearGradient id="cyan" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7BE9FF"/><stop offset="1" stop-color="#1C9BE6"/></linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.5" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="26"/></filter>
+    <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="14"/></filter>
+  </defs>
+  <rect width="1024" height="1024" rx="226" fill="url(#plate)"/>
+  <rect width="1024" height="1024" rx="226" fill="url(#aura)"/>
+  <rect x="2" y="2" width="1020" height="1020" rx="224" fill="none" stroke="url(#sheen)" stroke-width="4"/>
+  <polygon points="246.00,246.00 401.17,246.00 401.17,445.50 622.83,445.50 622.83,246.00 778.00,246.00 778.00,778.00 622.83,778.00 622.83,578.50 401.17,578.50 401.17,778.00 246.00,778.00" fill="url(#silver)"/>
+  <polygon points="246.00,246.00 401.17,246.00 401.17,445.50 622.83,445.50 622.83,246.00 778.00,246.00 778.00,778.00 622.83,778.00 622.83,578.50 401.17,578.50 401.17,778.00 246.00,778.00" fill="url(#sheen)"/>
+  <!-- Add the app's one small addition and its accent color below this line. Keep the plate, the silver H and the sheen exactly as they are. -->
+</svg>

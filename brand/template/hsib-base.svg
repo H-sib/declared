@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="480" height="480">
+  <title>H-sib base mark</title>
+  <!-- The H on a 24 by 24 grid: stems 7 wide, bar 6 tall, 10 between the stems. Never change these proportions. -->
+  <polygon id="base" points="0,0 7,0 7,9 17,9 17,0 24,0 24,24 17,24 17,15 7,15 7,24 0,24" fill="#111111"/>
+  <!-- Each app adds ONE small thing here (a seam, a notch, a tick) and one accent color. Declared adds a stepped seam, see ..\declared\declared-mark.svg. -->
+  <g id="variation"></g>
+</svg>

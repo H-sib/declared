@@ -1,0 +1,6 @@
+[emu 35] installing image system-images;android-35;google_apis;x86_64
+[emu 35] Warning: Still waiting for package manifests to be fetched remotely.
+[emu 35] Warning: Failed to find package 'system-images;android-35;google_apis;x86_64'
+[emu 35] starting emulator
+[emu 35] booted=False
+[emu 35] emulator exited

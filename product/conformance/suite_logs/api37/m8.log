@@ -1,0 +1,60 @@
+ok   baseline: a first entry is written and read back from the encrypted file
+ok   baseline: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   baseline: the head the app shows is the head in the file
+ok   baseline: the first entry says it was taken when the app was opened
+ok   baseline: every third-party app with a launcher icon that the system lists is in the history
+ok   baseline: the apps in the history are the apps the app's own report lists (that report is checked against the system by m2 to m7)
+ok   baseline: the app says where its key is held and the file says the same
+ok   baseline: the tripwire has a reading (or says why it cannot)
+ok   live: a proxy set while the app is open becomes a new entry
+ok   live proxy: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   live proxy: the head the app shows is the head in the file
+ok   live: the system agrees about the proxy
+ok   live: the entry records the fact and the finding that follows from it
+ok   live: it says it was taken while the app was on screen
+ok   live: an app installed while the app is open becomes an entry
+ok   live install: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   live install: the head the app shows is the head in the file
+ok   live: the system lists it
+ok   live: the entry is an addition of that app
+ok   live: an app removed while the app is open becomes an entry
+ok   live removal: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   live removal: the head the app shows is the head in the file
+ok   live: the entry is a removal of that app
+ok   revert: clearing the proxy is recorded as the opposite change
+ok   revert: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   revert: the head the app shows is the head in the file
+ok   revert: a fresh start makes an 'opened' entry
+ok   screen: the first screen has the History card
+ok   screen: 'Check the history now' can be pressed
+ok   screen: the check reports a valid, signed history
+ok   screen: the check says what it cannot see
+ok   screen: the timeline shows the proxy finding exactly as the entry recorded it
+ok   damage: the history file exists and is not readable as text (it is encrypted)
+ok   damage: a changed byte is reported as a damaged history, not read as empty or half read
+ok   damage: nothing was added to or rewritten in the damaged file
+ok   damage: the screen offers a new history
+ok   damage: a new history starts with a first entry
+ok   new history: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   new history: the head the app shows is the head in the file
+ok   damage: the damaged file is kept aside under another name, byte for byte
+ok   tripwire: with no screen lock the app says a lock tripwire is not possible
+ok   tripwire: the system confirms a screen lock is set
+ok   tripwire lock set: the signed history records 'tripwire.armed.credential'
+ok   tripwire lock set: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   tripwire lock set: the head the app shows is the head in the file
+ok   tripwire: the system confirms a fingerprint is enrolled
+ok   tripwire first fingerprint: the signed history records 'tripwire.armed.biometric'
+ok   tripwire first fingerprint: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   tripwire first fingerprint: the head the app shows is the head in the file
+ok   tripwire: the system confirms a second fingerprint
+ok   tripwire fingerprint added: the signed history records 'tripwire.fingerprint-added'
+ok   tripwire fingerprint added: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   tripwire fingerprint added: the head the app shows is the head in the file
+ok   tripwire fingerprint added: the screen keeps it as the last tripwire event (FingerprintAdded)
+ok   tripwire: the system confirms the lock is gone
+ok   tripwire lock removed: the signed history records 'tripwire.lock-removed'
+ok   tripwire lock removed: OpenSSL and hashlib say the history is authentic and tied to this phone's key
+ok   tripwire lock removed: the head the app shows is the head in the file
+ok   tripwire lock removed: the screen keeps it as the last tripwire event (LockRemoved)
+m8: 59 checks, 0 failed

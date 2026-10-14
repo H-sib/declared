@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Stage 1 asks for three normal permissions only (declared in the sensors library manifest, which explains
+        each): ACCESS_NETWORK_STATE, ACCESS_WIFI_STATE and QUERY_ADVANCED_PROTECTION_MODE. In particular there is no
+        INTERNET permission, no location, no QUERY_ALL_PACKAGES and no foreground service (DESIGN.md sections 9 and 10).
+        Two more are for the optional automatic checks, which are off until the person turns them on: POST_NOTIFICATIONS
+        (to say that a change needs a look; Android asks the person when they turn the feature on) and RECEIVE_BOOT_COMPLETED
+        (so the schedule they chose survives a restart). There is no service that stays running: the check is one short job.
+        Anyone can check this file, and the build fails if the merged manifest ever gains anything else (see
+        verifyManifestPolicy in app/build.gradle.kts). The <queries> package-visibility entries come from the sensors
+        library manifest too.
+    -->
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="false"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Declared">
+
+        <service
+            android:name=".CheckJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

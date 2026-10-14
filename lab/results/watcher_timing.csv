@@ -1,0 +1,111 @@
+api,condition,event,rep,observed,latency_ms_from_start,latency_ms_from_end,matched_line,notes
+34,app in front,accessibility service enabled,1,True,63,-81,setting-changed secure:enabled_accessibility_services,foreground; pid=13015 [service]
+34,app in front,accessibility service enabled,2,True,56,-98,setting-changed secure:enabled_accessibility_services,foreground; pid=13015 [service]
+34,app in front,accessibility service enabled,3,True,59,-95,setting-changed secure:enabled_accessibility_services,foreground; pid=13015 [service]
+34,app in front,notification listener allowed,1,True,311,206,setting-changed secure:enabled_notification_listeners,foreground; pid=13015 [service]
+34,app in front,notification listener allowed,2,True,310,189,setting-changed secure:enabled_notification_listeners,foreground; pid=13015 [service]
+34,app in front,notification listener allowed,3,True,319,200,setting-changed secure:enabled_notification_listeners,foreground; pid=13015 [service]
+34,app in front,default keyboard changed,1,True,61,-78,setting-changed secure:default_input_method,foreground; pid=13015 [service]
+34,app in front,default keyboard changed,2,True,80,-69,setting-changed secure:default_input_method,foreground; pid=13015 [service]
+34,app in front,default keyboard changed,3,True,83,-54,setting-changed secure:default_input_method,foreground; pid=13015 [service]
+34,app in front,private DNS mode changed,1,True,85,-86,setting-changed global:private_dns_mode,foreground; pid=13015 [service]
+34,app in front,private DNS mode changed,2,True,94,-86,setting-changed global:private_dns_mode,foreground; pid=13015 [service]
+34,app in front,private DNS mode changed,3,True,69,-74,setting-changed global:private_dns_mode,foreground; pid=13015 [service]
+34,app in front,global HTTP proxy set,1,True,79,-57,setting-changed global:http_proxy,foreground; pid=13015 [service]
+34,app in front,global HTTP proxy set,2,True,64,-70,setting-changed global:http_proxy,foreground; pid=13015 [service]
+34,app in front,global HTTP proxy set,3,True,58,-63,setting-changed global:http_proxy,foreground; pid=13015 [service]
+34,app in front,developer options toggled,1,True,64,-84,setting-changed global:development_settings_enabled,foreground; pid=13015 [service]
+34,app in front,developer options toggled,2,True,61,-71,setting-changed global:development_settings_enabled,foreground; pid=13015 [service]
+34,app in front,developer options toggled,3,True,68,-78,setting-changed global:development_settings_enabled,foreground; pid=13015 [service]
+34,app in front,visible app installed (has launcher icon),1,True,694,462,package PACKAGE_ADDED lab.fixture.a11y,foreground; pid=13015 [service]
+34,app in front,visible app installed (has launcher icon),2,True,776,294,package PACKAGE_ADDED lab.fixture.a11y,foreground; pid=13015 [service]
+34,app in front,visible app installed (has launcher icon),3,True,750,413,package PACKAGE_ADDED lab.fixture.a11y,foreground; pid=13015 [service]
+34,app in front,visible app removed,1,True,349,91,package PACKAGE_REMOVED lab.fixture.a11y,foreground; pid=13015 [service]
+34,app in front,visible app removed,2,True,405,54,package PACKAGE_REMOVED lab.fixture.a11y,foreground; pid=13015 [service]
+34,app in front,visible app removed,3,True,302,-9,package PACKAGE_REMOVED lab.fixture.a11y,foreground; pid=13015 [service]
+34,app in front,"hidden-icon app installed (no launcher, no capability)",1,False,,,,foreground; pid=13015 [service]
+34,app in front,"hidden-icon app installed (no launcher, no capability)",2,False,,,,foreground; pid=13015 [service]
+34,app in front,"hidden-icon app installed (no launcher, no capability)",3,False,,,,foreground; pid=13015 [service]
+34,app in front,app disabled,1,True,164,-70,package PACKAGE_CHANGED lab.fixture.perms,foreground; pid=13015 [service]
+34,app in front,app disabled,2,True,113,-54,package PACKAGE_CHANGED lab.fixture.perms,foreground; pid=13015 [service]
+34,app in front,app disabled,3,True,108,-29,package PACKAGE_CHANGED lab.fixture.perms,foreground; pid=13015 [service]
+34,app in front,Wi-Fi turned off,1,True,327,200,network lost,foreground; pid=13015 [service]
+34,app in front,Wi-Fi turned off,2,True,368,254,network lost,foreground; pid=13015 [service]
+34,app in front,Wi-Fi turned off,3,True,341,213,network lost,foreground; pid=13015 [service]
+34,app in background,accessibility service enabled,1,True,10081,9952,setting-changed secure:enabled_accessibility_services,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,accessibility service enabled,2,True,5948,5819,setting-changed secure:enabled_accessibility_services,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,notification listener allowed,1,True,10337,10225,setting-changed secure:enabled_notification_listeners,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,notification listener allowed,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,default keyboard changed,1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,default keyboard changed,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,private DNS mode changed,1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,private DNS mode changed,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,global HTTP proxy set,1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,global HTTP proxy set,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,developer options toggled,1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,developer options toggled,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,visible app installed (has launcher icon),1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,visible app installed (has launcher icon),2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,visible app removed,1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,visible app removed,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,"hidden-icon app installed (no launcher, no capability)",1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,"hidden-icon app installed (no launcher, no capability)",2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,app disabled,1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,app disabled,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,Wi-Fi turned off,1,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,app in background,Wi-Fi turned off,2,False,,,,"home screen, settled 30 s; pid=14594 [service]"
+34,"screen off, app in background",accessibility service enabled,1,True,10070,9944,setting-changed secure:enabled_accessibility_services,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",accessibility service enabled,2,True,5964,5833,setting-changed secure:enabled_accessibility_services,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",notification listener allowed,1,True,10392,10230,setting-changed secure:enabled_notification_listeners,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",notification listener allowed,2,True,6239,6130,setting-changed secure:enabled_notification_listeners,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",default keyboard changed,1,True,10070,9965,setting-changed secure:default_input_method,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",default keyboard changed,2,True,5858,5755,setting-changed secure:default_input_method,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",private DNS mode changed,1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",private DNS mode changed,2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",global HTTP proxy set,1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",global HTTP proxy set,2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",developer options toggled,1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",developer options toggled,2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",visible app installed (has launcher icon),1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",visible app installed (has launcher icon),2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",visible app removed,1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",visible app removed,2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background","hidden-icon app installed (no launcher, no capability)",1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background","hidden-icon app installed (no launcher, no capability)",2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",app disabled,1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",app disabled,2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",Wi-Fi turned off,1,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"screen off, app in background",Wi-Fi turned off,2,False,,,,mWakefulness=Asleep; pid=16881 [service]
+34,"deep idle (screen off, unplugged)",accessibility service enabled,1,True,10060,9951,setting-changed secure:enabled_accessibility_services,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",accessibility service enabled,2,True,5979,5873,setting-changed secure:enabled_accessibility_services,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",notification listener allowed,1,True,10334,10232,setting-changed secure:enabled_notification_listeners,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",notification listener allowed,2,True,6215,6117,setting-changed secure:enabled_notification_listeners,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",default keyboard changed,1,True,10071,9965,setting-changed secure:default_input_method,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",default keyboard changed,2,True,5847,5745,setting-changed secure:default_input_method,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",private DNS mode changed,1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",private DNS mode changed,2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",global HTTP proxy set,1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",global HTTP proxy set,2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",developer options toggled,1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",developer options toggled,2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",visible app installed (has launcher icon),1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",visible app installed (has launcher icon),2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",visible app removed,1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",visible app removed,2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)","hidden-icon app installed (no launcher, no capability)",1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)","hidden-icon app installed (no launcher, no capability)",2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",app disabled,1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",app disabled,2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",Wi-Fi turned off,1,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,"deep idle (screen off, unplugged)",Wi-Fi turned off,2,False,,,,deviceidle=IDLE; pid=19461 [service]
+34,process killed,accessibility service enabled,1,False,,,,pid=none [unknown]
+34,process killed,notification listener allowed,1,False,,,,pid=none [unknown]
+34,process killed,default keyboard changed,1,False,,,,pid=none [unknown]
+34,process killed,private DNS mode changed,1,False,,,,pid=none [unknown]
+34,process killed,global HTTP proxy set,1,False,,,,pid=none [unknown]
+34,process killed,developer options toggled,1,False,,,,pid=none [unknown]
+34,process killed,visible app installed (has launcher icon),1,False,,,,pid=none [unknown]
+34,process killed,visible app removed,1,False,,,,pid=none [unknown]
+34,process killed,"hidden-icon app installed (no launcher, no capability)",1,False,,,,pid=none [unknown]
+34,process killed,app disabled,1,False,,,,pid=none [unknown]
+34,process killed,Wi-Fi turned off,1,False,,,,pid=none [unknown]

@@ -1,0 +1,8 @@
+  FAIL [setup] the app reaches the home screen after the first review: expected True, got False
+  FAIL [tour] a new person is offered the tour on the home screen: expected True, got False
+  FAIL [tour] the tour card is tapped: expected True, got False
+  FAIL [tour] the tour opens on its first page: expected True, got False
+  FAIL [tour] the last page is about the simple view and ends in Done: expected True, got False
+  FAIL [tour] Done is tapped: expected True, got False
+  FAIL [simple] the home screen states what needs attention in plain words: expected True, got False
+33/40 checks passed

@@ -1,0 +1,39 @@
+  FAIL [secure-window] the Block screenshots switch is found and pressed: expected [True, True], got [False, False]
+  FAIL [secure-window] with Block screenshots on, the window carries the SECURE flag: expected True, got False
+  FAIL [secure-window] a screenshot of the blocked window yields no usable image (empty, or far smaller than one without the flag): expected True, got False
+[secure-window] 2/5 checks passed
+  FAIL [announce-private-dns] Private DNS: 'The Private DNS mode changed' arrived within 3 s of the change (device clock): expected 'under 3000 ms', got 5740
+  FAIL [announce-private-dns] Private DNS: 'The Private DNS server name changed' arrived within 3 s of the change (device clock): expected 'under 3000 ms', got 6340
+[announce-private-dns] 4/6 checks passed
+[announce-proxy] 4/4 checks passed
+[announce-proxy-removed] 3/3 checks passed
+[announce-developer-options] 4/4 checks passed
+[announce-developer-options-removed] 3/3 checks passed
+[announce-accessibility] 4/4 checks passed
+[announce-accessibility-off] 3/3 checks passed
+[announce-notification-listener] 4/4 checks passed
+[announce-notification-listener-off] 3/3 checks passed
+  info: after the install the app counted 106 (wanted 107); refreshing=False, refreshError=None
+  FAIL [announce-app-installed] the number of apps the report lists went up by one: expected 107, got 106
+[announce-app-installed] 1/2 checks passed
+[announce-app-updated] 3/3 checks passed
+[announce-app-removed] 2/2 checks passed
+[hidden-app-limit] 3/3 checks passed
+[reread-device-admin] 2/2 checks passed
+  info: announcements after the administrator change: []
+[reread-special-access] 1/1 checks passed
+  info: announcements after the special access change: []
+[reread-screen-lock] 1/1 checks passed
+  info: announcements after the screen lock change: []
+[reread-screen-lock-removed] 1/1 checks passed
+[background] 4/4 checks passed
+[live-events-for-the-screen] 1/1 checks passed
+  FAIL [live-card] the More tab has the live view row saying it is watching: expected True, got False
+[live-card] 0/1 checks passed
+[live-open] 1/1 checks passed
+[live-view-ui] 6/6 checks passed
+[blind-spots-open] 1/1 checks passed
+[blind-spots-ui] 7/7 checks passed
+[large-text-1.0] 3/3 checks passed
+[large-text-2.0] 3/3 checks passed
+74/81 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv

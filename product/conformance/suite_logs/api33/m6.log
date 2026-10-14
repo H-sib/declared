@@ -1,0 +1,49 @@
+[secure-window] 3/3 checks passed
+[announce-private-dns] 6/6 checks passed
+[announce-proxy] 4/4 checks passed
+  FAIL [announce-proxy-removed] web proxy removed: announced 'The web proxy setting changed': expected True, got False
+[announce-proxy-removed] 2/3 checks passed
+[announce-developer-options] 4/4 checks passed
+[announce-developer-options-removed] 3/3 checks passed
+[announce-accessibility] 4/4 checks passed
+[announce-accessibility-off] 3/3 checks passed
+[announce-notification-listener] 4/4 checks passed
+[announce-notification-listener-off] 3/3 checks passed
+[announce-app-installed] 2/2 checks passed
+[announce-app-updated] 3/3 checks passed
+[announce-app-removed] 2/2 checks passed
+[hidden-app-limit] 3/3 checks passed
+[reread-device-admin] 2/2 checks passed
+  info: announcements after the administrator change: ['An app was switched on or off, or one of its parts changed: com.google.android.apps.docs']
+[reread-special-access] 1/1 checks passed
+  info: announcements after the special access change: []
+[reread-screen-lock] 1/1 checks passed
+  info: announcements after the screen lock change: []
+[reread-screen-lock-removed] 1/1 checks passed
+[background] 4/4 checks passed
+[live-events-for-the-screen] 1/1 checks passed
+  FAIL [live-card] the first screen has the live view card saying it is watching while the app is on screen: expected True, got False
+[live-card] 0/1 checks passed
+  FAIL [live-open] the live view card opens the live view: expected True, got False
+[live-open] 0/1 checks passed
+  FAIL [live-view-ui] the live view says it is watching: expected True, got False
+  FAIL [live-view-ui] it states the measurement with where it was measured: expected True, got False
+  FAIL [live-view-ui] it states the background limit: expected True, got False
+  FAIL [live-view-ui] it states that a hidden app is never announced: expected True, got False
+  FAIL [live-view-ui] it states what is re-read and how often: expected True, got False
+  FAIL [live-view-ui] it lists what was heard, in the product's words: expected True, got False
+[live-view-ui] 0/6 checks passed
+  FAIL [blind-spots-open] the full map opens from the first screen: expected True, got False
+[blind-spots-open] 0/1 checks passed
+  FAIL [blind-spots-ui] both halves are there: expected True, got False
+  FAIL [blind-spots-ui] the hidden-apps entry gives the number of apps this phone shows: expected True, got False
+  FAIL [blind-spots-ui] it states the measured recall limit: expected True, got False
+  FAIL [blind-spots-ui] the unreadable signals of this phone are named with their reasons: expected True, got False
+  FAIL [blind-spots-ui] the background limit and Play Protect are there: expected True, got False
+  FAIL [blind-spots-ui] the screen-capture limit says an accessibility power can still read the screen: expected True, got False
+[blind-spots-ui] 1/7 checks passed
+  FAIL [large-text-1.0] font scale 1.0: first screen, live view and map are all reachable: expected ['first screen: ok', 'live view: ok', 'map of blind spots: ok'], got ['first screen: ok', 'live view: not reachable', 'map of blind spots: not reachable']
+[large-text-1.0] 2/3 checks passed
+  FAIL [large-text-2.0] font scale 2.0: first screen, live view and map are all reachable: expected ['first screen: ok', 'live view: ok', 'map of blind spots: ok'], got ['first screen: ok', 'live view: not reachable', 'map of blind spots: not reachable']
+[large-text-2.0] 2/3 checks passed
+61/79 checks passed; rows appended to C:\Users\lordhasib\Desktop\Projects\Ethical lite hacking\product\conformance\m6_results.csv

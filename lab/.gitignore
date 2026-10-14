@@ -1,0 +1,10 @@
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+results/raw/
+# Physical-device results can contain the names of apps installed on a real person's phone. Never publish them;
+# only aggregated findings (FINDINGS.md) leave this folder.
+results/observability_results_physical.csv
+__pycache__/
